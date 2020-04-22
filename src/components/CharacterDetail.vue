@@ -1,5 +1,5 @@
 <template lang="html">
-  <div>
+  <div id="character-profile">
     <h2>{{character.name}}</h2>
     <img v-bind:src="character.image" alt="character image">
     <h4>Species: {{character.species}}</h4>
@@ -17,4 +17,11 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+#character-profile {
+  text-align: center;
+  background-color: #97CE4C;
+  border: solid 5px #f0e14a;
+}
+
 </style>

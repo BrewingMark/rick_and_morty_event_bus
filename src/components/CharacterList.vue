@@ -20,4 +20,9 @@ export default {
 </script>
 
 <style lang="css" scoped>
+
+div {
+  background-color: #e89ac7;
+}
+
 </style>
